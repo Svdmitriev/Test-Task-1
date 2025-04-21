@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Test # 1</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="logo">
+          <img
+            class="mainLogo"
+            src="img/cage_logo.svg"
+            alt="Golden Cage Logo"
+          />
+          <h1>Golden Cage</h1>
+        </div>
+        <button class="burger-btn" aria-label="Открыть меню">
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#">Main</a></li>
+          <li><a href="#">Our projects</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="banner">
+      <div class="bannerLeft">
+        <h2>Homes completed! Ready to move in</h2>
+        <h3>An amazing deal - don't miss your chance!</h3>
+        <ul class="bannerInfo">
+          <li>
+            <img src="img/Ok.svg" alt="tag" />Premium view apartments from $100K
+          </li>
+          <li><img src="img/Ok.svg" alt="tag" />Down payment of just 30%</li>
+          <li>
+            <img src="img/Ok.svg" alt="tag" />Mortgage at 17% for the entire
+            term
+          </li>
+        </ul>
+        <button class="bannerButton">ORDER</button>
+      </div>
+      <div class="bannerRight">
+        <img
+          class="bannerPicture"
+          src="img/kandinsky-download-S1.png"
+          alt="picture1"
+        />
+      </div>
+    </div>
+    <div class="borderContainer"></div>
+    <div class="activeContainer">
+      <div class="activePictContainerLeft">
+        <img
+          class="bannerPicture"
+          src="img/kandinsky-download-complex.png"
+          alt="picture2"
+        />
+      </div>
+      <div class="activeTextContainer">
+        <ul class="activeText">
+          <li>
+            <img src="img/Exclude.svg" alt="tag" />The residential complex is
+            nestled within a preserved forest.
+          </li>
+          <li>
+            <img src="img/Exclude.svg" alt="tag" />Residents enjoy full
+            infrastructure designed for everyday comfort
+          </li>
+          <li>
+            <img src="img/Exclude.svg" alt="tag" />The territory features
+            playgrounds, sports facilities, swimming pools, and a wellness spa
+          </li>
+          <li>
+            <img src="img/Exclude.svg" alt="tag" />The entire complex is
+            safeguarded by continuous professional security.
+          </li>
+        </ul>
+        <button class="activeButton">ORDER</button>
+      </div>
+      <div class="activePictContainerRight">
+        <img
+          class="bannerPicture"
+          src="img/kandinsky-download-yard.png"
+          alt="picture3"
+        />
+      </div>
+    </div>
+    <div class="borderContainer"></div>
+    <div class="host-container">
+      <div class="form-container">
+        <div class="operator-pic">
+          <img src="img/Remove-bg.ai_operator-pic.png" alt="picture4" />
+        </div>
+        <h4>Get a personal consultation</h4>
+        <form id="myForm">
+          <div class="form-group">
+            <input
+              type="text"
+              id="name"
+              placeholder="Name"
+              name="name"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <input
+              type="email"
+              id="email"
+              placeholder="E-mail"
+              name="email"
+              required
+            />
+          </div>
+
+          <div class="checkbox-group">
+            <input type="checkbox" id="privacy" name="privacy" required />
+            <label for="privacy"
+              >I accept
+              <a href="#" class="privacy-link">Privacy Policy</a></label
+            >
+          </div>
+          <div id="privacyError" class="error-message"></div>
+
+          <button type="submit" class="submit-btn">SUBMIT FORM</button>
+        </form>
+
+        <div class="success-message" id="successMessage">
+          The form has been successfully submitted!
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="conteiner-bottom">
+        <ul class="footerUL">
+          <li><a href="#">Main</a></li>
+          <li><a href="#">Our projects</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </div>
+      <div class="footer-info">
+        <div class="footer-infoLeft">
+          <div class="logo">
+            <img
+              class="mainLogo"
+              src="img/cage_logo.svg"
+              alt="Golden Cage Logo"
+            />
+            <h1>Golden Cage</h1>
+          </div>
+          <h5>© 2024, Copyright.</h5>
+        </div>
+        <div class="footer-infoMid">
+          <div class="footer-icon">
+            <img class="footer-img" src="img/1st.svg" alt="icon" />
+            <img class="footer-img" src="img/2st.svg" alt="icon" />
+            <img class="footer-img" src="img/3st.svg" alt="icon" />
+            <img class="footer-img" src="img/4st.svg" alt="icon" />
+            <img class="footer-img" src="img/5st.svg" alt="icon" />
+            <img class="footer-img" src="img/6st.svg" alt="icon" />
+          </div>
+          <h5>Privat Policy</h5>
+        </div>
+        <div class="footer-infoRight">
+          <button class="footerButton">ORDER</button>
+          <h5>Terms of use</h5>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="JS/script.js"></script>
+</html>
